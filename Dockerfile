@@ -1,5 +1,5 @@
 # start by pulling the python image
-FROM python:3.8-alpine
+FROM python:3.12.0a1-alpine
 
 RUN python -m pip install --upgrade pip
 # copy the requirements file into the image
